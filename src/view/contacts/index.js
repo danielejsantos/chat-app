@@ -10,14 +10,14 @@ import PlusIcon from "../components/icons/plus";
 import UserInfo from "../components/user-info";
 
 const Container = styled.div`
-  padding-top: 10px;
   height: 100%;
+  margin-top: 15px;
 `;
 
 const UserInfoRow = styled.div`
   display: flex;
   flex-direction: row;
-  padding-left: 1%;
+  padding-left: 15px;
 `;
 
 const StyledUserImg = styled.img`
@@ -28,7 +28,7 @@ const StyledUserImg = styled.img`
 const NameDescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
+  padding-left: 15px;
 `;
 
 const NameText = styled.p`
@@ -52,14 +52,14 @@ const IconWrapper = styled.div`
 `;
 
 const SearchContainer = styled.div`
-  margin-left: 1%;
+  margin-left: 15px;
   margin-top: 13px;
 `;
 
 const InProgressRow = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 10px 1%;
+  margin: 10px 15px;
 `;
 
 const InProgress = styled.p`

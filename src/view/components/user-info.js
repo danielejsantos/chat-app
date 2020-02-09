@@ -6,7 +6,7 @@ import UnreadMessage from "./unread";
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 10px 1%;
+  padding: 10px 0 10px 15px;
 `;
 
 const StyledContactImage = styled.img`
@@ -22,9 +22,10 @@ const ContactWithoutImage = styled.div`
 `;
 
 const NameContainer = styled.div`
+  max-width: 120px;
   display: flex;
   flex-direction: column;
-  padding-left: 1%;
+  padding-left: 10px;
   justify-content: center;
 `;
 
@@ -45,7 +46,7 @@ const Job = styled(NameText)`
 
 const UnreadWrapper = styled.div`
   display: flex;
-  padding-left: 5%;
+  padding-left: 60px;
   justify-content: center;
   padding-top: 9px;
 `;
