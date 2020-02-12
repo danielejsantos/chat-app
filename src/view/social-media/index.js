@@ -13,14 +13,13 @@ const Container = styled.div`
   flex-direction: column;
   height: 100%;
   background: #f8fafc;
-  margin-top: 15px;
   margin-left: 15px;
   border-radius: 20px 0px 0px 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.04);
 `;
 
 const ItemContainer = styled.div`
   padding: 20px;
-  overflow: hidden;
   background: #f8fafc;
   border-radius: 20px 0px 0px 0px;
 `;
@@ -49,17 +48,17 @@ const SocialMedia = () => (
     </ItemContainer>
     <WhatsContainer>
       <WhatsItem>
-        <WhatsIcon />
+        <WhatsIcon width={25} height={25} color="#fff" />
       </WhatsItem>
     </WhatsContainer>
     <ItemContainer>
       <Item>
-        <EmailIcon />
+        <EmailIcon width={24} height={19} color="#E33E1A" />
       </Item>
     </ItemContainer>
     <ItemContainer>
       <Item>
-        <SkypeIcon />
+        <SkypeIcon width={25} height={25} color="#00AFF0" />
       </Item>
     </ItemContainer>
     <ItemContainer>
