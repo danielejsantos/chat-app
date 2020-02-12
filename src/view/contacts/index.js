@@ -11,7 +11,7 @@ import UserInfo from "../components/user-info";
 
 const Container = styled.div`
   height: 100%;
-  margin-top: 15px;
+  width: 21%;
 `;
 
 const UserInfoRow = styled.div`
